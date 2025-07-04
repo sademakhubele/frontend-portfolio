@@ -25,4 +25,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
     }, function(error) {
       alert("FAILED TO SEND: " + JSON.stringify(error));
     });
+  
+  this.reset(); 
+
 });
