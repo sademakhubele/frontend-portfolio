@@ -301,6 +301,11 @@ form input:focus {
     background: rgba(229, 229, 229);
 }
 
+button.btn {
+  background-color: whitesmoke !important;
+  color: black !important;
+}
+
 footer {
     display: flex;
     align-items: center;
